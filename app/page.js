@@ -14,6 +14,7 @@ export default function Home() {
   return (
     <main className="relative w-full h-screen">
       {isMounted && <Game />}
+      {/* this is something to display */}
       {/* <div className="absolute top-0 left-0 p-4 text-white bg-black bg-opacity-50 rounded-br-lg">
         <h1 className="text-2xl font-bold mb-2">3D FPS-style Game Frontend</h1>
         <p>Click on the game to enable mouse control</p>
